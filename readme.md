@@ -10,8 +10,9 @@
 
 3 Files:
 
-* App_Start/StructuremapMvc.cs (this is setting Structuremap IDependencyResolver as the default)
-* DependencyResolution/SmDependencyResolver.cs (Implements the IDependencyResolver using Structuremap)
+* App_Start/StructuremapMvc.cs
+* DependencyResolution/StructureMapDependencyResolver.cs 
+* DependencyResolution/StructureMapDependencyScope.cs 
 * DependencyResolution/IoC.cs (Structuremap's ObjectFactory Initialization, this is where you would define your mappings)
 
 
