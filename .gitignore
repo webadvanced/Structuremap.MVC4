@@ -20,3 +20,4 @@ artifacts/*
 msbuild.log
 PublishProfiles/
 *.psess
+*.ps1
