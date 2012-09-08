@@ -1,5 +1,5 @@
 ﻿using StructureMap;
-namespace $rootnamespace$ {
+namespace $rootnamespace$.DependencyResolution {
     public static class IoC {
         public static IContainer Initialize() {
             ObjectFactory.Initialize(x =>

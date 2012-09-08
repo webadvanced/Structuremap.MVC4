@@ -5,7 +5,7 @@ using System.Web.Http.Dependencies;
 using Microsoft.Practices.ServiceLocation;
 using StructureMap;
 
-namespace $rootnamespace$
+namespace $rootnamespace$.DependencyResolution
 {
     /// <summary>
     /// The structure map dependency scope.
