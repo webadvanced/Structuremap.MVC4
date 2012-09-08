@@ -2,7 +2,7 @@
 <package> 
   <metadata> 
     <id>StructureMap.MVC4</id> 
-    <version>2.0.0</version> 
+    <version>2.1.0</version> 
     <authors>Web Advanced</authors>
     <description>Adds the latest version of structuremap and configures it as the default Dependency Resolver. Works with 'Controllers' and 'ApiControllers'.</description> 
     <summary>An MVC4 IDependencyResolver wrapper for Structuremap 2.x</summary>
