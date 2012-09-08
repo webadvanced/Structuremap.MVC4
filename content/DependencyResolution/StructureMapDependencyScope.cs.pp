@@ -131,7 +131,9 @@ namespace $rootnamespace$
         {
             if (string.IsNullOrEmpty(key))
             {
-                return this.Container.GetInstance(serviceType);
+                return serviceType.IsAbstract || serviceType.IsInterface
+                           ? this.Container.TryGetInstance(serviceType)
+                           : this.Container.GetInstance(serviceType);
             }
 
             return this.Container.GetInstance(serviceType, key);
