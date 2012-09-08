@@ -1,6 +1,7 @@
 ﻿using System.Web.Http;
 using System.Web.Mvc;
 using StructureMap;
+using $rootnamespace$.DependencyResolution;
 
 [assembly: WebActivator.PreApplicationStartMethod(typeof($rootnamespace$.App_Start.StructuremapMvc), "Start")]
 
