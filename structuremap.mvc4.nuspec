@@ -2,8 +2,9 @@
 <package> 
   <metadata> 
     <id>StructureMap.MVC4</id> 
-    <version>2.1.3</version> 
+    <version>2.2.0</version> 
     <authors>Web Advanced</authors>
+	<licenseUrl>https://github.com/webadvanced/Structuremap.MVC4/blob/master/LICENSE</licenseUrl>
     <description>Adds the latest version of structuremap and configures it as the default Dependency Resolver. Works with 'Controllers' and 'ApiControllers'.</description> 
     <summary>An MVC4 IDependencyResolver wrapper for Structuremap 2.x</summary>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
