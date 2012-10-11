@@ -2,7 +2,7 @@
 <package> 
   <metadata> 
     <id>StructureMap.MVC4</id> 
-    <version>2.2.0</version> 
+    <version>2.6.4.1</version> 
     <authors>Web Advanced</authors>
 	<licenseUrl>https://github.com/webadvanced/Structuremap.MVC4/blob/master/LICENSE</licenseUrl>
     <description>Adds the latest version of structuremap and configures it as the default Dependency Resolver. Works with 'Controllers' and 'ApiControllers'.</description> 
@@ -11,7 +11,8 @@
     <language>en-US</language>
     <projectUrl>https://github.com/webadvanced/Structuremap.MVC4</projectUrl>
     <dependencies>
-      <dependency id="CommonServiceLocator.StructureMapAdapter" version="1.1.0.3" />
+      <dependency id="CommonServiceLocator" version="1.0" />
+      <dependency id="structuremap" version="2.6.4.1" />
       <dependency id="WebActivator" version="1.4.2" />
     </dependencies>
   </metadata> 
