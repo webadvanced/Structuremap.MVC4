@@ -11,9 +11,10 @@
     <language>en-US</language>
     <projectUrl>https://github.com/webadvanced/Structuremap.MVC4</projectUrl>
     <dependencies>
+      <dependency id="WebActivator" version="1.5.1" />
       <dependency id="CommonServiceLocator" version="1.0" />
       <dependency id="structuremap" version="2.6.4.1" />
-      <dependency id="WebActivator" version="1.4.2" />
+      <dependency id="Microsoft.AspNet.WebApi" version="4.0.20710.0" />
     </dependencies>
   </metadata> 
   <files>
