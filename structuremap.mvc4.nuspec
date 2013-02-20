@@ -2,7 +2,7 @@
 <package> 
   <metadata> 
     <id>StructureMap.MVC4</id> 
-    <version>2.6.4.1</version> 
+    <version>2.6.4.2</version> 
     <authors>Web Advanced</authors>
     <owners>paul, WebAdvanced</owners>
 	<licenseUrl>https://github.com/webadvanced/Structuremap.MVC4/blob/master/LICENSE</licenseUrl>
