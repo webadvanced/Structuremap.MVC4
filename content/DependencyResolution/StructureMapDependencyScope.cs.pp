@@ -71,27 +71,6 @@ namespace $rootnamespace$.DependencyResolution
         }
 
         /// <summary>
-        /// The get service.
-        /// </summary>
-        /// <param name="serviceType">
-        /// The service type.
-        /// </param>
-        /// <returns>
-        /// The System.Object.
-        /// </returns>
-        public object GetService(Type serviceType)
-        {
-            if (serviceType == null)
-            {
-                return null;
-            }
-
-            return serviceType.IsAbstract || serviceType.IsInterface
-                       ? this.Container.TryGetInstance(serviceType)
-                       : this.Container.GetInstance(serviceType);
-        }
-
-        /// <summary>
         /// The get services.
         /// </summary>
         /// <param name="serviceType">
