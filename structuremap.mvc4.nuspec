@@ -2,7 +2,7 @@
 <package> 
   <metadata> 
     <id>StructureMap.MVC4</id> 
-    <version>2.6.4.3</version> 
+    <version>3.0.2.115</version> 
     <authors>Web Advanced</authors>
     <owners>paul, WebAdvanced</owners>
 	<licenseUrl>https://github.com/webadvanced/Structuremap.MVC4/blob/master/LICENSE</licenseUrl>
@@ -14,8 +14,8 @@
     <dependencies>
       <dependency id="WebActivator" version="1.5.1" />
       <dependency id="CommonServiceLocator" version="1.0" />
-      <dependency id="structuremap" version="2.6.4.1" />
-      <dependency id="Microsoft.AspNet.WebApi" version="4.0.20710.0" />
+      <dependency id="structuremap" version="3.0.2.115" />
+      <dependency id="Microsoft.AspNet.WebApi" version="5.1.2" />
     </dependencies>
   </metadata> 
   <files>
